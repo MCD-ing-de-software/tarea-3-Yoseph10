@@ -1,4 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Ab2QrTYQ)
+
+# Alumno: YOSEPH DANIEL AYALA VALENCIA
+
 # Unit Testing Examples for Data Science Students
 
 This small project contains two Python classes that are useful in data
@@ -7,21 +10,21 @@ with `pytest`.
 
 ## Project structure
 
-- `src/data_cleaner.py`  
+- `src/data_cleaner.py`
   Defines the `DataCleaner` class with methods for cleaning
   `pandas.DataFrame` objects: dropping rows with missing values,
   trimming whitespace in string columns, and removing outliers using
   the IQR rule.
 
-- `src/statistics_utils.py`  
+- `src/statistics_utils.py`
   Defines the `StatisticsUtils` class with small numerical helpers:
   moving average, z-score computation, and min–max scaling. All methods
   validate their inputs and raise clear exceptions for invalid cases.
 
-- `tests/test_data_cleaner.py`  
+- `tests/test_data_cleaner.py`
   Unit tests for `DataCleaner` using `pytest`.
 
-- `tests/test_statistics_utils.py`  
+- `tests/test_statistics_utils.py`
   Unit tests for `StatisticsUtils` using `pytest`.
 
 ## Installation
